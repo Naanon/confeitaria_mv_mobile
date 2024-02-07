@@ -28,7 +28,17 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Galano-Grotesque-Bold.otf",
+            "./assets/fonts/Galano-Grotesque-Medium.otf",
+            "./assets/fonts/Galano-Grotesque-Semi-Bold.otf",
+            "./assets/fonts/Galano-Grotesque.otf"
+          ]
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
