@@ -1,8 +1,8 @@
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { Feather } from '@expo/vector-icons'
 
-import TabRoutes from './tab.routes';
-import StackRoutes from './stack.routes';
+import TabRoutes from '@/routes/tab.routes';
+import StackRoutes from '@/routes/stack.routes';
 
 const Drawer = createDrawerNavigator();
 

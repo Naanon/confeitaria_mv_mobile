@@ -1,6 +1,6 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Profile from '../screens/Profile';
+import Profile from '@/screens/Profile';
 
 const Stack = createNativeStackNavigator();
 
@@ -16,4 +16,3 @@ export default function StackRoutes() {
     // </NavigationContainer>
   );
 }
-
