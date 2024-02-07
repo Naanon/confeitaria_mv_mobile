@@ -1,12 +1,16 @@
 import 'react-native-gesture-handler';
-import Routes from '@/routes';
 import { Text, View } from 'react-native';
+import Header from '@/components/header';
 
 export default function Home() {
   return (
     // <Routes />
-    <View className="flex-1 items-center justify-center">
-      <Text>Hello World</Text>
+    <View className="flex-1 pt-8">
+      <Header
+        title="Faça seu pedido"
+        cartQuantityItems={1}
+      />
+
     </View>
   );
 }

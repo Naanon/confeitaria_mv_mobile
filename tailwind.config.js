@@ -7,7 +7,10 @@ module.exports = {
     extend: {
       backgroundColor: {
         pink: {
-          150: '#F4E5D8'
+          150: "#F4E5D8"
+        },
+        yellow: {
+          550: "#D59437"
         }
       },
       fontFamily: {
