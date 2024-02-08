@@ -7,10 +7,13 @@ module.exports = {
     extend: {
       backgroundColor: {
         pink: {
-          150: "#F4E5D8"
+          "150": "#F4E5D8"
         },
         yellow: {
-          550: "#D59437"
+          "550": "#D59437"
+        },
+        brown: {
+          "750": "#7D3924"
         }
       },
       fontFamily: {
@@ -18,6 +21,19 @@ module.exports = {
         subtitle: "Galano-Grotesque-Medium",
         body: "Galano-Grotesque",
         bold: "Galano-Grotesque-Bold",
+      },
+      textColor: {
+        yellow: {
+          "550": "#D59437"
+        },
+        brown: {
+          "750": "#7D3924"
+        }
+      },
+      borderColor: {
+        yellow: {
+          "550": "#D59437"
+        }
       }
     },
   },
